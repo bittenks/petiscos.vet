@@ -1,0 +1,82 @@
+
+
+.container-mx-auto {
+    background-color: white;
+    text-align: center;
+    box-shadow: 0 20px 40px rgba(73, 53, 53, 0.28);
+    border-radius: 16px;
+    margin-top: 50px;
+    margin-bottom: 50px
+}
+
+.card {
+    border: none
+}
+
+.profile img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%
+}
+
+.second {
+    border-left: 2px dotted lightgrey;
+    border-right: 2px dotted lightgrey
+}
+
+@media only screen and (max-width: 600px) {
+    .second {
+        border: none;
+        border-top: 2px dotted lightgrey;
+        margin-top: 25px
+    }
+
+    .third {
+        border-top: 2px dotted lightgrey;
+        margin-top: 25px
+    }
+
+    .icon {
+        margin-top: 20px;
+        top: 0
+    }
+}
+
+.fa-quote-left:before {
+    font-size: 7px;
+    color: orangered;
+    position: relative;
+    bottom: 5px
+}
+
+.intro {
+    font-size: 11px;
+    margin-left: 13px;
+    position: relative;
+    bottom: 8px
+}
+
+.row {
+    padding-bottom: 53px
+}
+
+.company {
+    position: absolute;
+    bottom: -42px
+}
+
+.fa-amazon:before {
+    content: "\f270";
+    font-size: 23px
+}
+
+.icon {
+    margin-bottom: 15px;
+    position: relative;
+    bottom: 20px
+}
+
+.header {
+    padding-top: 35px;
+    padding-bottom: 50px
+}
